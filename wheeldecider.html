@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OldSchool RuneScape Wheel Decider</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .title {
+            text-align: center;
+            margin-top: 20px;
+            position: relative;
+        }
+        .title h1 {
+            margin: 0;
+        }
+        .title::before, .title::after {
+            content: '';
+            position: absolute;
+            background: black;
+        }
+        .title::before {
+            width: 100%;
+            height: 2px;
+            bottom: -10px;
+            left: 0;
+        }
+        .container {
+            display: flex;
+            width: 90%;
+            padding-top: 20px;
+            border-top: 2px solid black;
+        }
+        .side {
+            flex: 1;
+            padding: 10px;
+            border-left: 2px solid black;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+        <h1>OldSchool RuneScape Wheel Decider</h1>
+    </div>
+    <div class="container">
+        <div class="side">
+            <h2>Solo Bosses</h2>
+            <iframe src="https://pickerwheel.com/emb/?choices=Barrows,Deranged%20Archaeologist,Moons%20of%20Peril,Chaos%20Fanatic,Crazy%20Archaeologist,Calvar'ion,Spindel,Artio,Zulrah,Vorkath,Phantom%20Muspah,Phosani's%20Nightmare,Duke%20Sucellus,The%20Leviathan,The%20Whisperer,Vardorvis,Obor,Bryophyta,Skotizo,Grotesque%20Guardians,Abyssal%20Sire,Kraken,Cerberus,Thermonuclear%20Smoke%20Devil,Alchemical%20Hydra,Crystalline%20Hunllef,Corrupted%20Hunllef,TzTok-Jad,TzKal-Zuk,Sol%20Heredit&title=Solo%20Bosses&mute=false" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
+            <h2>Solo Minigames</h2>
+            <iframe src="https://pickerwheel.com/emb/?choices=Fortis%20Colosseum,Inferno,Mage%20Arena,Nightmare%20Zone,Tackle%20Organised%20Crime,Temple%20Trekking,TzHaar%20Fight%20Cave,TzHaar-Ket-Rak's%20Challenges,Blast%20Mine,Gnome%20Resturant,Hallowed%20Sepulchre,Mahogany%20Homes,Stealing%20Artefacts,Tithe%20Farm,The%20Gauntlet,The%20Corrupted%20Gauntlet,Tears%20of%20Guthix,Barrows,Camdozaal%20Vault,Chompy%20Bird%20Hunting,Moons%20of%20Peril,Stealing%20valuables,Underwater%20Agility%20and%20Thieving&title=Solo%20Minigames&mute=false" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
+            <h2>Theme</h2>
+            <iframe src="https://pickerwheel.com/emb/?choices=Full%20Void%20Armor,Full%20Barrows%20Armor,Full%20Moon%20of%20Peril%20Armor,Full%20Rune%20Armor,Only%20Free%20to%20Play%20Items,No%20Body/Leg/Helm%20Slot,Only%20Tier%2075%20and%20Under%20Items,Full%20Graceful%20Except%20Cape/Glove/Boot%20Slot,Look%20Like%20the%20Boss/Minigame,Bring%20a%20Pet,Dress%20Like%20a%20Pirate,Wear%20a%20Skill%20Cape,Wilderness%20Gear%20(Only%203%20Items%20Above%20100k)&title=Theme&mute=false" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
+            <h2>Day of the Week</h2>
+            <iframe src="https://pickerwheel.com/emb/?choices=Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday&title=Day%20of%20the%20Week&mute=false" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
+        </div>
+        <div class="side">
+            <h2>Group Bosses</h2>
+            <iframe src="https://pickerwheel.com/emb/?choices=Scurrius,Giant%20Mole,Dagannoth%20Kings,Sarachnis,Kalphite%20Queen,Kree'arra,Commander%20Zilyana,General%20Graardor,K'ril%20Tsutsaroth,Corporeal%20Beast,Nex,Scorpia,King%20Black%20Dragon,Chaos%20Elemental,Vet'ion,Venenatis,Callisto,The%20Nightmare,Tempoross,Wintertodt,Zalcano,Great%20Olm,Verzik%20Vitur,Tumeken/Elidinis%20Warden&title=Group%20Bosses&mute=false" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
+            <h2>Group Minigames</h2>
+            <iframe src="https://pickerwheel.com/emb/?choices=Barbarian%20Assault,Bounty%20Hunter,Castle%20Wars,Clan%20Wars,Emir's%20Arena,Last%20Man%20Standing,Pest%20Control,Soul%20Wars,TzHaar%20Fight%20Pit,Blast%20Furnace,Brimhaven%20Agility%20Arena,Fishing%20Trawler,Giants'%20Foundry,Gnome%20Ball,Guardians%20of%20the%20Rift,Impetuous%20Impulses,Mage%20Training%20Arena,Pyramid%20Plunder,Rogues'%20Den,Sorceress's%20Garden,Trouble%20Brewing,Volcanic%20Mine,Shades%20of%20Mort'ton,Tai%20Bwo%20Wannai%20Cleanup,Warriors'%20Guild,Burthorpe%20Games%20Room,Rat%20Pits&title=Group%20Minigames&mute=false" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
+            <h2>Restrictions</h2>
+            <iframe src="https://pickerwheel.com/emb/?choices=No%20Two-Handed%20Weapons,Only%20Items%20from%201%20Class%20(Mager/Attack/Ranger),No%20Special%20Attack%20Weapons,Don't%20Use%20Prayers%20Above%20Level%2043%20Prayer,Only%20Use%20Salamander&title=Restrictions" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
+            <h2>Month of the Year</h2>
+            <iframe src="https://pickerwheel.com/emb/?choices=January,February,March,April,May,June,July,August,September,October,November,December&title=Month%20of%20the%20Year&mute=false" width="100%" height="550px" scrolling="no" frameborder="0"></iframe>
+        </div>
+    </div>
+	<!-- Made with Love by Asper <3 IGN: Aspurr -->
+</body>
+</html>
