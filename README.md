@@ -1,4 +1,4 @@
-OldSchool RuneScape Wheel Decider!
+<h1>OldSchool RuneScape Wheel Decider!</h1>h1>
 <br>
 Can't decide on what you want to do? Let The Wheel do it for you!
 <br>
