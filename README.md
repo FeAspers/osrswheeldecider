@@ -19,3 +19,5 @@ Restrictions
 Day of the Week
 <br>
 Month of the Year
+Skills
+Skilling Activities
