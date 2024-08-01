@@ -23,3 +23,19 @@ Month of the Year
 Skills
 <br>
 Skilling Activities
+<br>
+Collection Log Sections
+<br>
+Untradable Items
+<br>
+Quests
+<br>
+Achievement Diaries
+<br>
+Combat Task Tiers
+<br>
+Music Tracks
+<br>
+Regions
+<br>
+Locations
